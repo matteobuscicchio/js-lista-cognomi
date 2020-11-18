@@ -13,7 +13,13 @@ var surnameArray = [
 
 // aggiungi cognome
 surnameArray.push(userSurname);
-console.log(surnameArray.sort());
+
+//  reso surnameArray ordinato secondo alfabeto
+var surnameArray = surnameArray.sort();
+
+// stampo posizione utente
+var stampUserPosition = surnameArray.indexOf(userSurname);
+console.log((stampUserPosition) + 1);
 
 // stampo i nomi nella lista ordinata
 for (var i=0; i<surnameArray.length; i++){
@@ -23,7 +29,3 @@ for (var i=0; i<surnameArray.length; i++){
     document.getElementById('lista_cognomi').innerHTML = surnameUnorderedList + "<li>" + olSurnames + "</li>";
     
 }
-
-// stampo posizione utente
-var stampUserPosition = surnameArray.indexOf(userSurname);
-console.log((stampUserPosition) + 1);
