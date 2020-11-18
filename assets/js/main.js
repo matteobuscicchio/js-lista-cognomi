@@ -19,8 +19,8 @@ console.log(surnameArray.sort());
 for (var i=0; i<surnameArray.length; i++){
 
     var olSurnames = surnameArray[i];
-    var surnameOrderedList = document.getElementById('lista_cognomi').innerHTML;
-    document.getElementById('lista_cognomi').innerHTML = surnameOrderedList + "<li>" + olSurnames + "</li>";
+    var surnameUnorderedList = document.getElementById('lista_cognomi').innerHTML;
+    document.getElementById('lista_cognomi').innerHTML = surnameUnorderedList + "<li>" + olSurnames + "</li>";
     
 }
 
