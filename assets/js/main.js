@@ -1,12 +1,13 @@
 // lista cognomi
 var surnameArray = [
     "Bianchi", 
-    "Rossi", 
-    "Duzioni", 
+    "Verdi", 
+    "Duzioni",
     "Balsano", 
-    "Verdi"
+    "Rossi"
 ]
-console.log(surnameArray);
+
+console.log(surnameArray.sort());
 
 // prompt di domanda
 var userSurname = prompt("Salve, qual'è il tuo cognome?");
