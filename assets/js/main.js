@@ -29,3 +29,4 @@ for (var i=0; i<surnameArray.length; i++){
     document.getElementById('lista_cognomi').innerHTML = surnameUnorderedList + "<li>" + olSurnames + "</li>";
     
 }
+// ho rinominato la repo di github
